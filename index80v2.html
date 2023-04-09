@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#but1").click(function(){
+    $("#test").hide();
+  });
+  $("#but2").click(function(){
+    $("#test").show();
+  });
+});
+</script>
+</head>
+<body>
+    <button id="but1"> Спрятать четные элементы типа tr! </button>
+    <button id="but2"> Показать четные элементы типа tr ! </button>
+    <br>
+    <tr>3</tr>
+    <br>
+    <tr id="test">576</tr>
+    <br>
+    <tr id="test">32</tr>
+    <br>
+    <tr>1</tr>
+</body>
+</html>
